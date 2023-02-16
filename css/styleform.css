@@ -1,0 +1,71 @@
+.formulario {
+    text-align: center;
+    display: grid;
+    width: 500px;
+    height: 350px;
+}
+
+.panel {
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.568);
+    width: 500px;
+    text-align: center;
+}
+
+.dividido {
+    background-color: rgb(255, 255, 255, 0.39);
+    margin: 75px;
+    margin-top: 65px;
+    border-radius: 10px;
+    text-align: center;
+    height: 500px;
+    width: 500px;
+}
+
+.resultado {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin: auto;
+    text-align: center;
+    width: 200px;
+    height: 30px;
+}
+
+.correspondiente {
+    margin: auto;
+}
+
+.entrada {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin: auto;
+    width: 300px;
+    height: 30px;
+}
+
+.btn,
+.accion {
+    width: 80px;
+    height: 40px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-color: #000000;
+    background-color: white;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+}
+
+.btn:hover,
+.accion:hover {
+    background-color: #000000;
+    color: white;
+}
+
+.contenedor {
+    display: -webkit-flex;
+    align-items: center;
+    font-size: 1em;
+    background: url(https://www.wired.com/wp-content/uploads/2014/10/ut_interstellarOpener_f.png) 50% 50%;
+    background-size: cover;
+}
